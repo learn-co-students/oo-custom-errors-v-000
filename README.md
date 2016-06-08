@@ -164,7 +164,7 @@ We did it! We raised our very own custom error. However, our program is still br
 
 ## Custom Error Handling 
 
-We can achieve the above goal via something called **rescuing**. Before we look at how to rescue the errors we raise and allow our program to continue run, let's think about the desired behavior of our rescue. 
+We can achieve the above goal via something called **rescuing**. Before we look at how to rescue the errors we raise and allow our program to continue to run, let's think about the desired behavior of our rescue. 
 
 ### Step 1: Writing a Custom Error Message
 
@@ -178,7 +178,7 @@ class PartnerError < StandardError
 end
 ```
 
-Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong, if they encounter this error. Now we're ready to implement our rescue. 
+Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong if they encounter this error. Now we're ready to implement our rescue. 
 
 ### Step 2: Implementing the Rescue
 
