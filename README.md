@@ -178,7 +178,7 @@ class PartnerError < StandardError
 end
 ```
 
-Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong, if they encounter this error. Now we're ready to implement our rescue. 
+Now we have a nice, informative, custom error message that will make it really clear to our users what went wrong if they encounter this error. Now we're ready to implement our rescue. 
 
 ### Step 2: Implementing the Rescue
 
