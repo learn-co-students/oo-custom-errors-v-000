@@ -4,7 +4,7 @@
 
 * Create and raise custom error messages in Ruby.
 
-## Introduction
+## Introductions
 
 Ruby has a hierarchy of error, or `Exception`, classes, all of which inherit
 from the Exception class. You'll become familiar with these error types:
